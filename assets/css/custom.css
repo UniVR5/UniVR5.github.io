@@ -1,0 +1,42 @@
+/* 
+STUDIOO1 CUSTOM STYLESHEET
+--------------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+
+/* ASSIGN CUSTOM PRIMARY FONT */
+
+body, #primary-nav li a > p, .qcSecTitle h1, .qcPageTitle h1, .qcSubTitle, .blog-details h3, .blog-details .blog-meta li, .blogSingleMeta li a, .overlay p.client, .event-plus, .event-details h3, .qcTeamCol h4, .small-box p, .small-box h4, .widget p, #qcFooterNav, h2#qcSkillTitle, .qcSkillNote, ul.tabs li a, blockquote, .qcBigTitle, h2.qcCommentTitle {
+	font-family: 'Open sans', sans-serif;
+}
+
+/* ASSIGN CUSTOM SECONDARY FONT */
+
+.qcPageTitle > .col:last-child > div, .qcPageTitle p, .qcPageDesc, .small-box p.qcPageDesc, .format-col h1, .overlay p.title, .date-col h1, .dropcap,  {
+	font: font-family: 'Raleway', sans-serif;
+}
+
+/* 	ASSIGN CUSTOM PRIMARY HIGHLIGHT COLOR */
+
+#logo, .qcSecTitle i, #qcBlogSort li a.active, .blog-plus, .qcPortSort li.active, .qcFeatureCol .small-box i {
+	background-color: orange;
+}
+
+#primary-nav li.selected a, #primary-nav li.selected a:hover, #primary-nav li.selected a i, #primary-nav li:hover.selected a i, #primary-nav li.shop a, #qcPrevNext li a:hover, .overlay p.client {
+	color: orange;
+}
+
+ul.tabs li a.selected {
+	border-top-color: orange;
+}
+
+/* ASSIGN CUSTOM PAGE BACKGROUND COLOR/IMAGE */
+
+.page {
+	background: #fff url('');
+}
