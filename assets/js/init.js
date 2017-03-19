@@ -30,7 +30,7 @@ $(document).ready(function() {
 
 // --------- 1. ASCENSOR - PAGE/SITE NAVIGATION ----------  //
 
-var ascensor = $('#qcPageWrapper').ascensor({ascensorFloorName:["intro", "skills", "work" , "team" , "services", "features", "blog", "about", "contact"], direction: [[1,0],[2,0],[3,0],[4,0],[5,0],[6,0],[7,0],[8,0],[9,0]], swipeNavigation:true });
+var ascensor = $('#qcPageWrapper').ascensor({ascensorFloorName:["intro", "services", "about", "contact","subscribe"], direction: [[1,0],[2,0],[3,0],[4,0],[5,0],[6,0],[7,0],[8,0],[9,0]], swipeNavigation:true });
 var ascensorInstance = $('#qcPageWrapper').data('ascensor');
 $("#primary-nav li").click(function(event, index) {
 	ascensorInstance.scrollToFloor($(this).index());
