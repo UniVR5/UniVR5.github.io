@@ -76,8 +76,9 @@ html, body {
 }
 body {
 	font: 400 14px/28px "Open sans", Helvetica, Arial, sans-serif;
-	background: #fff url('http://placehold.it/1200x900&text=Background+Image') no-repeat fixed;
-	background-size: cover;
+	background: #fff ;
+	background-image: url('../img/placeholder/background.png');
+	/*background-size: cover;*/
 }
 .container {
 	margin: 0 90px;
